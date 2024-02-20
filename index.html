@@ -2,10 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador JS</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    
 </head>
 <body>
+    <header>
+        <div class="container-titulo">
+            <h1>Encriptador de mensajes</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="enfoque">
+
+                <div class="central">
+                    <textarea id="cifrarTexto" placeholder="Texto a encriptar"></textarea>
+                    
+                    <div class="botones">
+                        <a class="boton" onclick="cifrar()">Cifrar</a>
+                        <a class="boton" onclick="descifrarT()">Descifrar</a>
+                        <!-- <button  onclick="cifrarT();">Cifrar</button> -->
+                        <!-- <button onclick="descifrarT()">Descifrar</button> -->
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="textoDescifrado">
+                <div class="central">
+                    <textarea id="descifrarTexto" placeholder="Texto cifrado"  readonly></textarea>
+                    <div class="botonesDos">
+                        <a class="boton2" onclick="copiarText()">Copy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        
+    </footer>
     
+    <script src="app.js"></script>
 </body>
 </html>
