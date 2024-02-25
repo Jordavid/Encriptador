@@ -142,3 +142,14 @@ footer {
 .social-links a:hover {
     color: #007bff;
 }
+
+@media screen and (max-width:480px) {
+
+    .container{
+        display: inline-block;
+        
+    }
+    .enfoque, .textoDescifrado, .central{
+        width: auto;
+    }
+}
