@@ -90,6 +90,11 @@ main {
     justify-content: flex-end;
 }
 
+p{
+    color: white;
+    text-align: center;
+}
+
 .boton2 {
     margin: 10px;
     font-family: lato;

@@ -69,11 +69,21 @@ function copiarText(){
         var content = document.getElementById('descifrarTexto');
         content.select();
         document.execCommand('copy');
-        alert('Texto copiado al portapapeles');
+        asignarTexto('p','Texto copiado al portapapeles');
     } else{
         alert('No hay texto que copiar');
     }
     
+}
+
+function asignarTexto(elemento, texto){
+    let elementoHTML = document.querySelector(elemento);
+    elementoHTML.innerHTML = texto;
+    
+    // Se utiliza setTimeout para eliminar el texto luego de 2 de segundo
+    setTimeout(function(){
+        elementoHTML.innerHTML = '';
+    }, 2000);
 }
 
 function limpiarText(){
