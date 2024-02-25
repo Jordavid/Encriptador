@@ -1,0 +1,139 @@
+/* Estilos para el header */
+header {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+}
+
+h1{
+    font-size: 60px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
+.container-titulo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* Estilos para el main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72.5vh;
+    background-color: #000;
+}
+
+.central {
+    width: 300px;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px white;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.enfoque,
+.textoDescifrado {
+    position: relative;
+    /*width: 100%;*/
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+    margin: 0 30px auto;
+    /*margin-right: 30px;*/
+}
+
+#cifrarTexto,
+#descifrarTexto {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    resize: none;
+    color: white;
+    background: transparent;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    margin: 10px;
+    font-family: lato;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    animation: pulse 1s ease-in-out;
+}
+
+
+.botonesDos {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton2 {
+    margin: 10px;
+    font-family: lato;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.boton2:hover {
+    animation: pulseDos 1s ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 25px #16e19e, 0 0 50px #16e19e;
+    }
+}
+
+@keyframes pulseDos {
+    0% {
+        box-shadow: 0 0 25px #f11010, 0 0 50px #f11010;
+    }
+}
+
+footer {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+    color: #000;
+}
+
+
+
+.social-links a {
+    color: #fff;
+    margin: 10px 5px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
