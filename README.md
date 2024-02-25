@@ -20,6 +20,6 @@ Javascript, HTML, CSS...
 
 
 ## Screenshots
+![image](https://github.com/Jordavid/Encriptador/assets/97200394/20a12584-ab21-4d9b-ae84-c54c949062e1)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
