@@ -13,7 +13,7 @@ function cifrarT(){
     let textResult = campoEntrada.value;
     if(textResult != ''){
         if(/[A-Z]/.test(textResult) || /[^a-zA-A0-9\s]/.test(textResult)){
-            alert('No se aceptan letras mayusculas, acentos ni caracteres especiales.');
+            alert('No se aceptan letras mayusculas, acentos ni caracteres especiales');
         } else {
             let text = cifrar(campoEntrada.value);
             campoSalida.value = text;
