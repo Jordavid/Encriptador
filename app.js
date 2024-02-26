@@ -19,7 +19,7 @@ function cifrarT(){
             campoSalida.value = text;
         }
     } else {
-        alert('Campo requerido');
+        alert('Campo requerido.');
     }
 }
 
